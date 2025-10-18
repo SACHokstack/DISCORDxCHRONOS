@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun run:*)",
+      "Bash(chmod:*)",
+      "Bash(pip3 list:*)",
+      "Bash(cat:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Read(//home/sach/**)",
+      "Bash(./venv/bin/pip install:*)",
+      "Bash(find:*)",
+      "Bash(\"/home/sach/ELIZAOS!/Discord_working_chronos/hen/venv/bin/pip\" install -r \"/home/sach/ELIZAOS!/Discord_working_chronos/hen/chronos_full_requirements.txt\")",
+      "Bash(./venv/bin/python3 -c \"\nimport sys\nsys.path.insert(0, ''HeritageNet-example/app'')\nfrom futurehouse_client import FutureHouseClient\nfrom hypothesis_verifier import HypothesisVerifier\nfrom pipeline import run_pipeline\nprint(''✅ All imports successful!'')\n\")",
+      "Bash(./venv/bin/python3 -c \"\nimport sys\nsys.path.insert(0, ''HeritageNet-example/app'')\nfrom futurehouse_client import FutureHouseClient\nfrom hypothesis_verifier import HypothesisVerifier\nfrom pipeline import run_pipeline\nfrom neo4j_cleanup import clear_neo4j_database\nprint(''✅ All imports successful!'')\n\")",
+      "Bash(./venv/bin/python3:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
